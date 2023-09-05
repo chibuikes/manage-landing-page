@@ -1,0 +1,741 @@
+
+
+
+@media(max-width:649px){
+  .imgm{
+    display:block;
+    
+
+  }
+  .partm{
+    display:none;
+  }
+  .partm1{
+    visibility: hidden;
+  }
+  .part{
+    display:block;
+  }
+  .overlay{
+    position: fixed;
+    background:white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    z-index:7;
+    top:31px;
+    width:80vw;
+    height:200px;
+    right:10vw;
+
+
+  }
+  .backdrop{
+    position:fixed;
+    height: 100vh;
+    z-index:6;
+    top:0px;
+    left:0px;
+    width:100vw;
+    background: black;
+    opacity:0.4;
+  }
+  .close{
+    position: fixed;
+    top:21px;
+    z-index:7;
+
+    right:9vw
+
+  }
+  
+  .divm{
+  display:flex;
+  justify-content: flex-start;
+  height:wrap;
+  padding: 0px;
+  }
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        margin-top: 9px;
+        padding-top: 15px;
+
+      }
+      .ul {
+        display: none;
+        list-style: none;
+        justify-content: space-around;
+      }
+
+      .li {
+        font-size: 12px;
+        color: hsl(233, 12%, 40%);
+        margin: 0px 8px;
+        font-weight: bold;
+      }
+      li.li:hover {
+        font-size: 12px;
+        color: hsl(233, 12%, 80%);
+        margin: 0px 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .btn {
+       display: none;
+       
+      }
+  
+      .btn1 {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        margin: 20px 0px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn1:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .img {
+        width:100px
+      }
+      .sec {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        background-image: url('./bg-simplify-section-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+      .div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .div1 {
+        max-width: 100%;
+        height:auto;
+      }
+      .img1 {
+        width: 90%;
+        height: 100%;
+      }
+      .h1 {
+        color: hsl(233, 12%, 30%);
+        font-size: 32px;
+      }
+      .p1 {
+        font-size: 14px;
+        color: hsl(227, 12%, 61%);
+      }
+
+      .sec1 {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        padding-top: 0px;
+      }
+      .wrapper{
+           display: flex;
+           flex-direction: column;
+           margin:0px  4vw;
+           
+      }
+      .div1a {
+        height: 100%;
+      }
+      .art {
+        display: flex;
+        flex-direction: column;
+      }
+      .p3 {
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 18px;
+        font-size: 10px;
+        width: 20px;
+        padding: 5px 15px;
+        padding-right: 10px;
+        
+        height: 8%;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .p4m {
+        color: hsl(233, 12%, 40%);
+        font-weight: bold;
+  background-color: hsl(12, 88%, 93%);
+  padding: 0px 20px;
+  width:250px
+
+      }
+      .p4{
+        display:none;
+      }
+      .p5 {
+        color: hsl(227, 12%, 61%);
+        font-size: 12px;
+      }
+      
+      
+   
+}
+
+@media(min-width:650px){
+  .imgm{
+    display:none
+  }
+  .partm1{
+    display:none;
+  }
+    .partm{
+    display:none;
+  }
+  .part{
+    display:none;
+
+  }
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 11px;
+
+      }
+      .ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+      }
+      .ul::before{
+        color:red;
+        font-size: larger;
+      }
+      .ul::after{
+        color:red;
+        font-size: larger;
+      }
+      .li {
+        font-size: 12px;
+        color: hsl(233, 12%, 40%);
+        margin: 0px 8px;
+        font-weight: bold;
+      }
+      li.li:hover {
+        font-size: 12px;
+        color: hsl(233, 12%, 80%);
+        margin: 0px 8px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .btn1 {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn1:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .btn {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .img {
+        margin-left: -20px;
+        width:100px
+      }
+      .sec {
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+        margin-top: 50px;
+      }
+      .div {
+        width: 35%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .div1 {
+        width: 60%;
+        height: 90%;
+      }
+      .img1 {
+        width: 90%;
+        height: 100%;
+      }
+      
+      .p1 {
+        font-size: 12px;
+        color: hsl(227, 12%, 61%);
+      }
+
+      .sec1 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0px;
+      }
+      .wrapper{
+           display: flex;
+           flex-direction: column;
+           margin-left: 10vw;
+      }
+      .div1a {
+        width: 55%;
+        height: 100%;
+      }
+      .art {
+        display: grid;
+        grid-template-columns: 5% 70%;
+        grid-column-gap: 15%;
+        grid-row-gap: 0px;
+      }
+      .p3 {
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 18px;
+        font-size: 10px;
+        width: 20px;
+        padding: 5px 15px;
+        padding-right: 10px;
+        
+        height: 8%;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .p4 {
+        color: hsl(233, 12%, 40%);
+        font-weight: bold;
+      }
+      .p4m{
+        display:none;
+      }
+      .p5 {
+        color: hsl(227, 12%, 61%);
+        font-size: 12px;
+      }
+      
+      
+      .h1 {
+        color: hsl(233, 12%, 30%);
+        font-size: 26px;
+      }
+}
+
+@media(min-width:870px){
+  .imgm{
+    display:none
+  }
+  .part{
+    display:none;
+
+  }
+  .partm1{
+    display:none;
+  }
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 11px;
+
+      }
+      .ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+      }
+      .li {
+        font-size: 12px;
+        color: hsl(233, 12%, 40%);
+        margin: 0px 20px;
+        font-weight: bold;
+      }
+      li.li:hover {
+        font-size: 12px;
+        color: hsl(233, 12%, 80%);
+        margin: 0px 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .btn {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .btn1 {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn1:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 100px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .img {
+        margin-left: -20px;
+        width:100px
+      }
+      .sec {
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+        margin-top: 50px;
+      }
+      .div {
+        width: 40%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .div1 {
+        width: 55%;
+        height: 100%;
+      }
+      .img1 {
+        width: 90%;
+        height: 100%;
+      }
+      
+      .p1 {
+        font-size: 14px;
+        color: hsl(227, 12%, 61%);
+      }
+
+      .sec1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding-top: 0px;
+      }
+      .wrapper{
+           display: flex;
+           flex-direction: column;
+           margin-left: 10vw;
+      }
+      .div1a {
+        width: 55%;
+        height: 100%;
+      }
+      .art {
+        display: grid;
+        grid-template-columns: 5% 60%;
+        grid-column-gap: 15%;
+        grid-row-gap: 0px;
+      }
+      .p3 {
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 18px;
+        font-size: 11px;
+        width: 26px;
+        padding: 10px 10px;
+        padding-left: 19px;
+        padding-bottom: 13px;
+        height: 8%;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .p4 {
+        color: hsl(233, 12%, 40%);
+        font-weight: bold;
+      }
+      .p4m{
+        display:none;
+      }
+      .p5 {
+        color: hsl(227, 12%, 61%);
+        font-size: 14px;
+      }
+      
+      
+      .h1 {
+        color: hsl(233, 12%, 30%);
+        font-size: 30px;
+      }
+}
+
+@media(min-width:1115px){
+  .imgm{
+    display:none
+  }
+  .part{
+    display:none;
+
+  }
+  .partm1{
+    display:none;
+  }
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        padding-top: 11px;
+
+      }
+      .ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+      }
+      .li {
+        font-size: 12px;
+        color: hsl(233, 12%, 40%);
+        margin: 0px 20px;
+        font-weight: bold;
+      }
+      li.li:hover {
+        font-size: 12px;
+        color: hsl(233, 12%, 80%);
+        margin: 0px 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .btn {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 130px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 130px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .btn1 {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 130px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+      }
+      button.btn1:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 130px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+      .img {
+        margin-left: -20px;
+        width:150px;
+      }
+      .sec {
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        margin-top: 50px;
+      }
+      .div {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .div1 {
+        width: 45%;
+        height: 100%;
+      }
+      .img1 {
+        width: 80%;
+        height: 100%;
+      }
+      
+      .p1 {
+        font-size: 14px;
+        color: hsl(227, 12%, 61%);
+      }
+
+      .sec1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        padding-top: 0px;
+      }
+      .wrapper{
+           display: flex;
+           flex-direction: column;
+           margin-left: 10vw;
+      }
+      .div1a {
+        width: 45%;
+        height: 100%;
+      }
+      .art {
+        display: grid;
+        grid-template-columns: 5% 55%;
+        grid-column-gap: 12%;
+        grid-row-gap: 0px;
+      }
+      .p3 {
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 18px;
+        font-size: 11px;
+        width: 26px;
+        padding: 10px 10px;
+        padding-left: 19px;
+        padding-bottom: 13px;
+        height: 8%;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .p4 {
+        color: hsl(233, 12%, 40%);
+        font-weight: bold;
+      }
+      .p4m{
+        display:none;
+      }
+      .p5 {
+        color: hsl(227, 12%, 61%);
+        font-size: 14px;
+      }
+      
+      
+      .h1 {
+        color: hsl(233, 12%, 30%);
+        font-size: 30px;
+      }
+}
+
+/*
+
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%)
+
+### Neutral
+
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%)
+      .btn1 {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 59%);
+        border-radius: 20px;
+        font-size: 11px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        width: 130px;
+        cursor: pointer;
+      }
+      button.btn1:hover {
+        border: none;
+        color: hsl(13, 100%, 96%);
+        background: hsl(12, 88%, 72%);
+        border-radius: 20px;
+        font-size: 11px;
+        width: 130px;
+        padding: 10px 16px;
+        box-shadow: 0px 4px 10px hsl(12, 88%, 75%);
+        cursor: pointer;
+      }
+*/

@@ -1,0 +1,16 @@
+
+
+@media(max-width:649px){
+    .div{
+     cursor: default;
+    }
+}
+
+
+@media(min-width:650px){
+    .div{
+        background-image: url('./bg-simplify-section-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
